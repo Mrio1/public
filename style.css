@@ -97,7 +97,7 @@ button{
 .new-task-item {
     width: 318px;
 }
-.new-task > .btn:hover {
+.task-row-wrap .btn:hover {
     color: #0fc57c;
 }
 
@@ -106,7 +106,6 @@ button{
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;

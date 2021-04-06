@@ -21,7 +21,9 @@ var createNewTaskElement=function(taskString){
     listItem.classList.add('list-item');
 
     //input (checkbox)
-    var checkBox=document.createElement("input");//checkbx
+    var checkBox=document.createElement("input");
+    checkBox.classList.add('checkbox');
+    checkBox.setAttribute('type', 'checkbox');
     //label
     var label=document.createElement("label");//label
     //input (text)
